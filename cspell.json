@@ -1,16 +1,17 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "Moatasem",
-        "psutil",
-        "pyfiglet",
-        "pytube",
-        "Sayed",
-        "termcolor"
-    ],
-    "ignoreWords": [],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "gtts",
+    "Moatasem",
+    "psutil",
+    "pyfiglet",
+    "pytube",
+    "Sayed",
+    "termcolor"
+  ],
+  "ignoreWords": [],
+  "import": []
 }

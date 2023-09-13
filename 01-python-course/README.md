@@ -13,7 +13,8 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
 ## Table of Contents
 
 - [Course Outline :](#course-outline)
-  - [Introduction to Python.](#1-introduction-to-python)
+  - [01-Introduction to Python.](#1-introduction-to-python)
+  - [02-Deep_Dive_and_Python_modules.](#2-deep-dive-and-python-modules)
 
 - [Python Modules.](#python-modules)
   - [termcolor.](#termcolor)
@@ -27,8 +28,11 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
   - [calendar.](#calendar)
   - [python-vlc.](#python-vlc)
   - [gtts.](#gtts)
+  - [subprocess.](#subprocess)
+  - [keyboard.](#keyboard)
 
 - [Tasks](#tasks)
+  
   - [01-Introduction to Python Tasks :](#01-introduction-to-python-tasks)
     - [01 print your info](#01-print-your-info)
     - [02 simple Calculator](#02-simple-calculator)
@@ -37,8 +41,16 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
     - [05 simple calender](#05-simple-calender)
     - [06 vowel detector](#06-vowel-detector)
     - [07 environment variable](#07-get-environment-variable)
-    - [08 count repeated 4 in user list](#08-count-repeated-4-in-list)
-
+    - [08 count repeated 4 in user list]
+    (#08-count-repeated-4-in-list)
+  
+  - [02-Deep dive and python modules Tasks :](#02-deep-dive-and-python-modules)
+    - [01 find max number](#01-find-max-number)
+    - [02 find bitcoin price](#02-find-bitcoin-price)
+    - [03 make custom system keyboard shortcut](#03-make-custom-system-keyboard-shortcut)
+    - [04 print multi function inputs](#04-print-multi-function-inputs)
+    - [05 add multi function inputs](#05-add-multi-function-inputs)
+  
 ## Course Outline
 
 The course is divided into 5 modules, each covering different aspects of Python programming.
@@ -89,6 +101,26 @@ Here is an overview of the modules:
 - continue.
 - nested loops.
 
+### 2. Deep dive and python modules
+
+- Built in functions vs object functions.
+- string methods.
+- string substitution.
+- using help command.
+- functions:
+  - normal:
+    - void.
+    - return.
+  - value:
+    - assign.
+    - default.
+  - variadic argument:
+    - *list.
+    - **dict.
+- local and global function.
+- lambda expression.
+- some examples on modules
+
 ## Python Modules
 
 ### termcolor
@@ -99,24 +131,17 @@ It allows you to easily apply colors to text and background, making your command
 
 termcolor is particularly useful for highlighting important information or organizing data within terminal-based applications.
 
-**used in [02 simpleCalculator](01-Introduction_to_Python/02_simpleCalculator.py)**
-**used in [03 login System](01-Introduction_to_Python/03_loginSystem.py)**
-
 ### psutil
 
 The **psutil** module is a Python library that provides an interface for retrieving system-related information, such as CPU usage, memory usage, network statistics, and more.
 
 It simplifies system monitoring and management tasks, making it a valuable tool for developers working on system-related applications.
 
-**used in [print Pc HW State](01-Introduction_to_Python/scriptsForAdvancedModules/printPcHWState.py)**
-
 ### os
 
 The **os** module is a Python library that provides a wide range of functions for interacting with the operating system.
 
 It allows you to perform tasks such as file and directory manipulation, environment variable management, and process control, making it essential for system-level programming and file handling in Python.
-
-**used in [07 environment variable](01-Introduction_to_Python/07_getEnvironmentVariable.py)**
 
 ### datetime
 
@@ -126,27 +151,19 @@ The **datetime** module is a Python library that provides classes and functions 
 
 The **pyfiglet** module is a Python library that allows you to create stylized text art, also known as ASCII art, using various font styles. It's a fun and creative tool for generating decorative text for banners, headers, and more in your Python projects.
 
-**used in [print fancy name](01-Introduction_to_Python/scriptsForAdvancedModules/printFancyName.py)**
-
 ### Requests
 
 The **Requests** module is a Python library used for making HTTP requests to web services and fetching data from URLs.
 
 It simplifies the process of sending GET, POST, and other HTTP requests, making it a popular choice for web scraping, API interactions, and web-based data retrieval in Python.
 
-**used in [requesting](01-Introduction_to_Python/scriptsForAdvancedModules/requesting.py)**
-
 ### pytube
 
 The **pytube** module is a Python library that simplifies the downloading of YouTube videos. It provides an easy-to-use interface for extracting video and audio streams from YouTube URLs, making it a valuable tool for working with YouTube content in Python applications.
 
-**used in [youtube downloader](01-Introduction_to_Python/scriptsForAdvancedModules/youtubeDownloader.py)**
-
 ### math
 
 The **math** module is a Python library that provides a set of mathematical functions and constants for performing complex mathematical operations, including basic arithmetic, trigonometry, logarithms, and more. It's a fundamental tool for mathematical calculations in Python programs.
-
-**used in [04 circle Area Calculator](01-Introduction_to_Python/04_circleAreaCalculator.py)**
 
 ### calendar
 
@@ -154,19 +171,21 @@ The **calendar** module is a Python facilitates the creation and manipulation of
 
 It enables you to generate calendars, work with dates, and perform various date-related calculations, making it valuable for tasks involving scheduling, event planning, and date-based applications.
 
-**used in [05 simple calender](01-Introduction_to_Python/05_calendar.py)**
-
 ### python-vlc
 
 The **python-vlc** module is a Python binding for the VLC media player, allowing developers to control and integrate VLC functionality into their Python applications, making it possible to automate media playback and manipulation.
-
-**used in [convert text to speak](01-Introduction_to_Python/scriptsForAdvancedModules/convertTextToSpeak.py)**
 
 ### gtts
 
 The **gtts** module is a Python module enable developers to convert text into speech by leveraging Google's Text-to-Speech API. It provides a convenient way to generate audio files or play speech directly from text, enhancing the accessibility and interactivity of applications.
 
-**used in [convert text to speak](01-Introduction_to_Python/scriptsForAdvancedModules/convertTextToSpeak.py)**
+### subprocess
+
+The **subprocess** module is a Python library for running external processes, commands, and programs from within your Python scripts. It provides a powerful way to interact with the system shell, execute system commands, and capture their output, making it a versatile tool for automation and system integration tasks.
+
+### keyboard
+
+The **keyboard** module is a Python library that enables programmatically simulating and monitoring keyboard input. It allows you to automate and interact with keyboard events, making it useful for tasks like creating keyboard macros, automated testing, and simulating user input in various applications.
 
 ## Tasks
 
@@ -206,3 +225,25 @@ simple program print path environment variable using OS module
 #### [08 count repeated 4 in list](01-Introduction_to_Python/08_countRepeated4InList.py)
 
 simple program print how many 4 in list entered by user
+
+### 02-Deep dive and python modules
+
+#### [01 find max number](02-Deep_Dive_and_Python_modules/01_find_Max_num.py)
+
+simple program to print the max number from given list.
+
+#### [02 find bitcoin price](02-Deep_Dive_and_Python_modules/02_find_bitcoin_price.py)
+
+simple program get bitcoin price from api and print it in USD.
+
+#### [03 make custom system keyboard shortcut](02-Deep_Dive_and_Python_modules/03_keyboard_shortcut.py)
+
+simple program make a shortcut to open python course.
+
+#### [04 print multi function inputs](02-Deep_Dive_and_Python_modules/04_print_multi_argument.py)
+
+simple program to print the function input list and dic content without know len of list or dic.
+
+#### [05 add multi function inputs](02-Deep_Dive_and_Python_modules/05_add_multi_parametes.py)
+
+program to print the sum of input to function using multi argument style
