@@ -14,7 +14,8 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
 
 - [Course Outline :](#course-outline)
   - [01-Introduction to Python.](#1-introduction-to-python)
-  - [02-Deep_Dive_and_Python_modules.](#2-deep-dive-and-python-modules)
+  - [02-Deep Dive and Python modules.](#2-deep-dive-and-python-modules)
+  - [02-Advanced python.](#3-advanced-python)
 
 - [Python Modules.](#python-modules)
   - [termcolor.](#termcolor)
@@ -30,6 +31,8 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
   - [gtts.](#gtts)
   - [subprocess.](#subprocess)
   - [keyboard.](#keyboard)
+  - [pyAutoGUI.](#pyautogui)
+  - [webbrowser.](#webbrowser)
 
 - [Tasks](#tasks)
   
@@ -41,8 +44,7 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
     - [05 simple calender](#05-simple-calender)
     - [06 vowel detector](#06-vowel-detector)
     - [07 environment variable](#07-get-environment-variable)
-    - [08 count repeated 4 in user list]
-    (#08-count-repeated-4-in-list)
+    - [08 count repeated 4 in user list](#08-count-repeated-4-in-list)
   
   - [02-Deep dive and python modules Tasks :](#02-deep-dive-and-python-modules)
     - [01 find max number](#01-find-max-number)
@@ -50,6 +52,13 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
     - [03 make custom system keyboard shortcut](#03-make-custom-system-keyboard-shortcut)
     - [04 print multi function inputs](#04-print-multi-function-inputs)
     - [05 add multi function inputs](#05-add-multi-function-inputs)
+  
+  - [03-Advanced python](#03-advanced-python)
+    - [01 open web page](#01-firelink-app)
+    - [02 activity suggest](#02-i-am-bored)
+    - [03 get my public ip](#03-get-my-public-ip)
+    - [04 install vsCode extension](#04-setup-vscode-extension)
+    - [05 make .cpp file and .h file](#05-cpp-file-creation)
   
 ## Course Outline
 
@@ -119,7 +128,29 @@ Here is an overview of the modules:
     - **dict.
 - local and global function.
 - lambda expression.
-- some examples on modules
+- some examples on modules.
+
+### 3. Advanced python
+
+- make your own module.
+- built in variables.
+- alias import.
+- from import.
+- garbage collector.
+- list methods.
+- shallow clone.
+- deep clone.
+- tuple methods.
+- set methods.
+- unpacking concept.
+- pyautogui module.
+- make global alise.
+- dictionary methods.
+- del keyword.
+- .copy() usage.
+- pass by value in functions.
+- pass by reference in functions.
+- files manipulation.
 
 ## Python Modules
 
@@ -187,6 +218,14 @@ The **subprocess** module is a Python library for running external processes, co
 
 The **keyboard** module is a Python library that enables programmatically simulating and monitoring keyboard input. It allows you to automate and interact with keyboard events, making it useful for tasks like creating keyboard macros, automated testing, and simulating user input in various applications.
 
+### pyautogui
+
+The **pyautogui** module is a Python library for automating GUI interactions by simulating mouse and keyboard input. It enables developers to automate repetitive tasks, create GUI-based scripts, and perform UI testing and interaction with applications on a computer, making it a powerful tool for automation and testing purposes.
+
+### webbrowser
+
+The **webbrowser** module is a Python provides a simple interface for opening web browsers and displaying web pages, making it convenient for automating web-related tasks and opening URLs programmatically in your Python scripts.
+
 ## Tasks
 
 ### 01-Introduction to Python Tasks
@@ -247,3 +286,25 @@ simple program to print the function input list and dic content without know len
 #### [05 add multi function inputs](02-Deep_Dive_and_Python_modules/05_add_multi_parametes.py)
 
 program to print the sum of input to function using multi argument style
+
+### 03-Advanced python
+
+#### [01 fireLink app](03-advanced-python/01_fireLinkApp)
+
+simple program to make custom lib and use web browser module.
+
+#### [02 i am bored](03-advanced-python/02_iAmBored.py)
+
+simple program to use api to suggest tasks to do when i am bored.
+
+#### [03 get my public ip](03-advanced-python/03_getMyPublicIP.py)
+
+simple program to use api to get my public ip.
+
+#### [04 setup vscode extension](03-advanced-python/04_setupVsCodeExtention.py)
+
+train to use pyautogui module to open vs code then setup an extension.
+
+#### [05 cpp file creation](03-advanced-python/05_cppFileCreation.py)
+
+create .cpp and .h files with given name with a starter code.
