@@ -19,6 +19,7 @@ int main() {\n
 }\n"""
 
 cppFile.write(codeTemp)
+cppFile.close()
 
 hFile = open(f"{fileName}.h", "w+")
 
@@ -33,3 +34,4 @@ headerTemp = f"""
 """
 
 hFile.write(headerTemp)
+hFile.close()
