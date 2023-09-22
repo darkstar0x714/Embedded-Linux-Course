@@ -1,0 +1,2 @@
+void initApp();
+void loopApp();

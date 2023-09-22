@@ -5,14 +5,18 @@
   "dictionaries": [],
   "words": [
     "alise",
+    "GPIO",
     "gtts",
     "Moatasem",
+    "openpyxl",
     "psutil",
     "pyautogui",
     "pyfiglet",
     "pytube",
     "Sayed",
-    "termcolor"
+    "smtplib",
+    "termcolor",
+    "webbrowser"
   ],
   "ignoreWords": [],
   "import": []

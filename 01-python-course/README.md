@@ -15,7 +15,8 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
 - [Course Outline :](#course-outline)
   - [01-Introduction to Python.](#1-introduction-to-python)
   - [02-Deep Dive and Python modules.](#2-deep-dive-and-python-modules)
-  - [02-Advanced python.](#3-advanced-python)
+  - [03-Advanced python.](#3-advanced-python)
+  - [04-OOP In python.](#4-oop-in-python)
 
 - [Python Modules.](#python-modules)
   - [termcolor.](#termcolor)
@@ -32,7 +33,13 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
   - [subprocess.](#subprocess)
   - [keyboard.](#keyboard)
   - [pyAutoGUI.](#pyautogui)
-  - [webbrowser.](#webbrowser)
+  - [platform.](#platform)
+  - [uuid.](#uuid)
+  - [smtplib.](#smtplib)
+  - [sys.](#sys)
+  - [plyer.](#plyer)
+  - [time.](#time)
+  - [openpyxl.](#openpyxl)
 
 - [Tasks](#tasks)
   
@@ -60,6 +67,18 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
     - [04 install vsCode extension](#04-setup-vscode-extension)
     - [05 make .cpp file and .h file](#05-cpp-file-creation)
   
+  - [04-oop in python](#04-oop-in-python)
+    - [01 number of lines](#01-number-of-lines-in-file)
+    - [02 number of words in file](#02-number-of-words-in-file)
+    - [03 write list to a file](#03-write-list-to-a-file)
+    - [04 gpio file generator](#04-gpio-file-generator)
+    - [05 email checker](#05-email-checker)
+    - [06 battery notifier](#06-battery-notifier)
+    - [07 get argument from terminal](#07-get-argument-from-terminal)
+    - [08 print an ascii code for an input](#08-print-an-ascii-code-for-an-input)
+    - [09 .h parser to excel](#09-h-parser-to-excel)
+    - [10 email alert](#10-email-alert)
+
 ## Course Outline
 
 The course is divided into 5 modules, each covering different aspects of Python programming.
@@ -152,6 +171,43 @@ Here is an overview of the modules:
 - pass by reference in functions.
 - files manipulation.
 
+### 4. oop in python
+
+- OOP
+  - oop concept
+    - attribute
+    - actions
+  - constructor
+  - destructor
+  - built-in actions
+    - str
+    - doc
+    - init
+    - del
+  - Inheritance
+    - depending conflict
+    - super calling
+    - multi-level inheritance
+  - Private member
+  - static method
+  - Operator overloading
+- error handling
+  - error types
+  - try
+  - except
+  - else
+  - finally
+- files
+  - **with** keyword
+  - csv
+  - openpyxl
+- multi-threading
+  - process vs threads
+  - line process
+  - .start
+  - .join
+  - .isAlive  
+
 ## Python Modules
 
 ### termcolor
@@ -225,6 +281,34 @@ The **pyautogui** module is a Python library for automating GUI interactions by 
 ### webbrowser
 
 The **webbrowser** module is a Python provides a simple interface for opening web browsers and displaying web pages, making it convenient for automating web-related tasks and opening URLs programmatically in your Python scripts.
+
+### platform
+
+The **platform** module is a Python provides a simple interface to access information about the host operating system, including details like the OS name, version, and hardware architecture, making it useful for cross-platform compatibility and system-specific code.
+
+### uuid
+
+The **uuid** module is a Python is used to generate and work with universally unique identifiers (UUIDs). These UUIDs are 128-bit values that are typically used for unique identification in various applications and systems.
+
+### smtplib
+
+The **smtplib** module is a Python is used for sending email messages using the Simple Mail Transfer Protocol (SMTP). It enables developers to create and send email messages programmatically, making it a valuable tool for automating email-related tasks in Python applications.
+
+### sys
+
+The **sys** module is a Python library that provides access to system-specific parameters and functions. It is often used for command-line arguments, interacting with the Python runtime environment, and other system-related tasks.
+
+### plyer
+
+The **plyer** module is a Python library that simplifies cross-platform access to common hardware features, such as notifications, camera, GPS, and more. It enables developers to create platform-independent applications with ease.
+
+### time
+
+The **time** module is a Python provides functionality for working with time, including functions for measuring time intervals, formatting time, and interacting with system time. It is commonly used for tasks such as benchmarking, scheduling, and date/time manipulation in Python programs.
+
+### openpyxl
+
+The **openpyxl** module is a Python library for working with Excel files (both .xlsx and .xlsm formats). It enables developers to create, modify, and extract data from Excel spreadsheets programmatically.
 
 ## Tasks
 
@@ -308,3 +392,45 @@ train to use pyautogui module to open vs code then setup an extension.
 #### [05 cpp file creation](03-advanced-python/05_cppFileCreation.py)
 
 create .cpp and .h files with given name with a starter code.
+
+### 04-OOP in python
+
+#### [01 number of lines in file](04-OOP_files/01_numberOfLines)
+
+simple program to count number of lines in file .
+
+#### [02 number of words in file](04-OOP_files/02_numberOfWords.py)
+
+simple program to count number of words in file .
+
+#### [03 write list to a file](04-OOP_files/03_writeListToFile)
+
+simple program to write list to txt file .
+
+#### [04 gpio file generator](04-OOP_files/04_GPIOFileGenerator.py)
+
+simple c code generator for avr GPIO driver.
+
+#### [05 email checker](04-OOP_files/05_emailChecker.py)
+
+simple email checker when computer is opening.
+
+#### [06 battery notifier](04-OOP_files/06_batteryNotifier.py)
+
+simple program to send notification when battery is low.
+
+#### [07 get argument from terminal](04-OOP_files/07_getArgumentFromTerminal.py)
+
+simple program get arguments from user in terminal and use it.
+
+#### [08 print an ascii code for an input](04-OOP_files/08_ASCIIValueOfCharacter.py)
+
+simple program to print ascii code of a character.
+
+#### [09 .h parser to excel](04-OOP_files/09_.hParserToExcelFile)
+
+simple program to parse functions into excel sheet.
+
+#### [10 email alert](04-OOP_files/10_emailAlertWhenOpenLap.py)
+
+program to send email when ever the laptop get opened with device name and mac.

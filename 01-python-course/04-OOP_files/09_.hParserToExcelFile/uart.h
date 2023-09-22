@@ -1,0 +1,2 @@
+void initUart();
+void loopUart();
