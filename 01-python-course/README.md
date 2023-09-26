@@ -40,6 +40,9 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
   - [plyer.](#plyer)
   - [time.](#time)
   - [openpyxl.](#openpyxl)
+  - [tkinter.](#tkinter)
+  - [customtkinter.](#customtkinter)
+  - [socket.](#socket)
 
 - [Tasks](#tasks)
   
@@ -78,6 +81,12 @@ the fundamentals of Python programming and how to apply Python as powerful scrip
     - [08 print an ascii code for an input](#08-print-an-ascii-code-for-an-input)
     - [09 .h parser to excel](#09-h-parser-to-excel)
     - [10 email alert](#10-email-alert)
+  
+  - [05-oop in python](#05-sockets-and-gui)
+    - [01 GUI calculator](#01-simple-calculator-gui)
+    - [02 led on off](#02-len-on-off)
+    - [03 socket server](#03-socket-server)
+
 
 ## Course Outline
 
@@ -208,6 +217,13 @@ Here is an overview of the modules:
   - .join
   - .isAlive  
 
+### 5. gui and socket in python
+
+- sockets
+- tkinter
+- intro to open cv
+- intro to flask
+
 ## Python Modules
 
 ### termcolor
@@ -309,6 +325,18 @@ The **time** module is a Python provides functionality for working with time, in
 ### openpyxl
 
 The **openpyxl** module is a Python library for working with Excel files (both .xlsx and .xlsm formats). It enables developers to create, modify, and extract data from Excel spreadsheets programmatically.
+
+### tkinter
+
+The **tkinter** is the standard GUI (Graphical User Interface) library for Python, providing tools to create desktop applications with windows, buttons, text boxes, and other GUI elements. It simplifies the development of interactive and visually appealing software.
+
+### customtkinter
+
+The **customtkinter** is a Python library for working with GUI and create modern looking python GUI based on **tkinter**.
+
+### socket
+
+The **socket** module is a fundamental Python library that enables network communication by providing a set of tools for creating, sending, and receiving data over network sockets. It is essential for building network applications and services in Python.
 
 ## Tasks
 
@@ -434,3 +462,17 @@ simple program to parse functions into excel sheet.
 #### [10 email alert](04-OOP_files/10_emailAlertWhenOpenLap.py)
 
 program to send email when ever the laptop get opened with device name and mac.
+
+### 05-sockets and GUI
+
+#### [01 simple Calculator GUI](05-socket_GUI/01_simpleCalculatorGUI.py)
+
+simple GUI for calculator using custom tkinter .
+
+#### [02 Len On Off](05-socket_GUI/02_ledOnOff.py)
+
+simple GUI for changing the color of element on the GUI .
+
+#### [03 socket server](05-socket_GUI/03_socket)
+
+simple program to show how socket programming work as IPC .
