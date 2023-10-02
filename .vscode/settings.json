@@ -1,0 +1,30 @@
+{
+"autoHeader": {
+    "format": {
+        "startWith": "/**",
+        "middleWith": "*",
+        "endWith": "*/",
+        "headerPrefix": "@",
+    },
+    "header": {
+        "Author": "Amir W. Fathy",
+        "Create Time": {
+            "type": "createTime",
+            "format": "YYYY-MM-DD HH:mm:ss",
+        },
+        "As Known As": {
+            "type": "modifier",
+            "value": "DarkStar0x714",
+        },
+        "Description": " ",
+    }
+},
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "cSpell.language": "en,ar",
+    "cSpell.words": [
+        "customtkinter"
+    ],
+    "cmake.configureOnOpen": true,
+}
