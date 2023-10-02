@@ -27,6 +27,7 @@ to master c++ as a core programming language of embedded linux and advanced topi
     - [05 multiplication table](#05-multiplication-table)
     - [06 sum of number digits](#06-sum-of-number-digits)
     - [07 dec to bin and vice verse](#07-dec-to-bin-and-vice-verse)
+    - [08 newline methods compare](#08-newline-methods-compare)
   
 ## Course Outline
 
@@ -93,3 +94,7 @@ simple program to sum all digits in given number
 #### [07 dec to bin and vice verse](01-introduction_to_c++/07-decToBinAndViceVerce.cpp)
 
 simple program to convert dec to bin and bin to dec.
+
+#### [08 newline methods compare](01-introduction_to_c++/08-endl%20vs%20\n.md)
+
+simple compare between endl and "\n" to make a new line.
