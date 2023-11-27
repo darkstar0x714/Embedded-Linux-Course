@@ -15,6 +15,7 @@ to master c++ as a core programming language of embedded linux and advanced topi
 - [Course Outline :](#course-outline)
   
   - [01-Introduction to C++](#1-introduction-to-c)
+  - [01-Deep Dive into C++](#2-deep-dive-into-c)
   
 - [Tasks](#tasks)
 
@@ -63,6 +64,24 @@ Here is an overview of the modules:
 - Break.
 - continue.
 
+### 2. Deep Dive Into C++
+
+- Functions
+  - Default parameters
+  - overload
+  - mangle and demangle
+- Arrays
+- Pointers
+- References
+- auto dataType
+- Casting
+  - c-style cast
+  - static cast
+  - const cast
+  - dynamic cast
+  - reinterpret cast
+- lambda expression
+
 ## Tasks
 
 ### 01-Introduction to C++ Tasks
@@ -98,3 +117,41 @@ simple program to convert dec to bin and bin to dec.
 #### [08 newline methods compare](01-introduction_to_c++/08-endl%20vs%20\n.md)
 
 simple compare between endl and "\n" to make a new line.
+
+### 02-Deep Dive Into C++ Tasks
+
+#### [01 find max number in array](02-derived_in_c++/01-findMaxNumberInArray.cpp)
+
+code to find max number in array using c & c++ style coding
+
+#### [02 find number in array](02-derived_in_c++/02-searchNumberInArray.cpp)
+
+code to find user input element using c & c++ style coding and return index
+
+#### [03 delete element in vector](02-derived_in_c++/03-deleteElement.cpp)
+
+example to delete element from vector
+
+#### [04 merge two vectors](02-derived_in_c++/04-mergeTwoArray.cpp)
+
+code to merge 2 arrays
+
+#### [05 find even and odd](02-derived_in_c++/05-findEvenOddElement.cpp)
+
+code to print even and odd elements
+
+#### [06 lambda function to find sqr of number](02-derived_in_c++/06-lambdaFunctionsForSqr.cpp)
+
+simple code to use lambda functions to get sqr of an user input number
+
+#### [07 lambda function to sort array](02-derived_in_c++/07-lambdaFunctionToSortUsingLambdaFunctions.cpp)
+
+simple code to use lambda functions to sort vector ascending and descending
+
+#### [08 address book using oop](02-derived_in_c++/08-addressBookUsingOOP.cpp)
+
+address book example to store and get data by user
+
+#### [09 nullptr vs null](02-derived_in_c++/09-whyWeUseNullptr.md)
+
+simple explain about why we should use nullptr instant of null
