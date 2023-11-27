@@ -29,6 +29,18 @@ to master c++ as a core programming language of embedded linux and advanced topi
     - [06 sum of number digits](#06-sum-of-number-digits)
     - [07 dec to bin and vice verse](#07-dec-to-bin-and-vice-verse)
     - [08 newline methods compare](#08-newline-methods-compare)
+
+  - [02-Deep Dive Into C++ Tasks :](#02-deep-dive-into-c-tasks)
+
+    -[01 find max number in array](#01-find-max-number-in-array)
+    -[02 find number in array](#02-find-number-in-array)
+    -[03 delete element in vector](#03-delete-element-in-vector)
+    -[04 merge two vectors](#04-merge-two-vectors)
+    -[05 find even and odd](#05-find-even-and-odd)
+    -[06 lambda function to find sqr of number](#06-lambda-function-to-find-sqr-of-number)
+    -[07 lambda function to sort array](#07-lambda-function-to-sort-array)
+    -[08 address book using oop](#08-address-book-using-oop)
+    -[09 nullptr vs null](#09-nullptr-vs-null)
   
 ## Course Outline
 
