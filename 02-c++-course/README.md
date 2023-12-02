@@ -15,7 +15,8 @@ to master c++ as a core programming language of embedded linux and advanced topi
 - [Course Outline :](#course-outline)
   
   - [01-Introduction to C++](#1-introduction-to-c)
-  - [01-Deep Dive into C++](#2-deep-dive-into-c)
+  - [02-Deep Dive into C++](#2-deep-dive-into-c)
+  - [03-OOP part 1](#3-oop-part-1)
   
 - [Tasks](#tasks)
 
@@ -41,6 +42,10 @@ to master c++ as a core programming language of embedded linux and advanced topi
     - [07 lambda function to sort array](#07-lambda-function-to-sort-array)
     - [08 address book using oop](#08-address-book-using-oop)
     - [09 nullptr vs null](#09-nullptr-vs-null)
+
+  - [03-OOP part1 :](#3-oop-part-1)
+    > there is no task in this lec.
+  
   
 ## Course Outline
 
@@ -93,6 +98,36 @@ Here is an overview of the modules:
   - dynamic cast
   - reinterpret cast
 - lambda expression
+
+### 3. OOP part 1
+- const vs. constexpr
+- constexpr function
+- thinking in c++ 
+- initialization
+  - value
+  - direct
+  - copy
+  - list
+  - aggregate
+  - reference
+- narrow conversion
+- vexing parse
+- synthesize constructor
+- Enum
+- Enum class
+- struct
+- what is OOP ?
+- what is class ?
+- members and methods
+- oop inline function vs external 
+- constructor 
+- delegation 
+- destructor
+- const member 
+- const method 
+
+
+
 
 ## Tasks
 
